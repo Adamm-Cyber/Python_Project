@@ -26,3 +26,21 @@ print(text[2])
 print(text.index("a"))
 text = "Codezilla"
 print(text.replace("Code" , "Mode"))
+#+++++++++++++++++++++++++++++++++++++++++++++
+print(2.444)
+print(3+5)
+print(3*3+1)
+print(3*(3+1))
+print(10%3)
+my_number = -5
+print(str(my_number) + " my favorite number")
+print(abs(my_number))
+print(pow(2,3))
+print(max(4,10))
+print(min(4,10))
+print(round(2.7))
+print(round(2.3))
+from math import *
+print(floor(2.7))
+print(ceil(3.1))
+print(sqrt(9))
