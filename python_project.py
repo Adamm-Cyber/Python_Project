@@ -70,7 +70,7 @@
 # friends[0] = "Adam Mu"
 # print(friends[0:])
 #+++++++++++++++++++++++++++++++++++++++++++++++
-codezilla = ["Programming" , "python"  , "tutorial" , "css" , "HTML"]
+#codezilla = ["Programming" , "python"  , "tutorial" , "css" , "HTML"]
 # tutorila = ["extend" , "list1" , "codezilla"]
 # codezilla.extend(tutorila)
 # print(codezilla)
@@ -107,9 +107,18 @@ codezilla = ["Programming" , "python"  , "tutorial" , "css" , "HTML"]
 # print(codezilla)
 # print(list_new)
 #+++++++++++++++++++++++++++++++++++++++++++++++
-codezilla = ["Programming" , "python"  , "tutorial" , "css" , "HTML"]
-list_new = codezilla
-print(list_new)
-codezilla.append(1)
-print(codezilla)
-print(list_new)
+# codezilla = ["Programming" , "python"  , "tutorial" , "css" , "HTML"]
+# list_new = codezilla
+# print(list_new)
+# codezilla.append(1)
+# print(codezilla)
+# print(list_new)
+#+++++++++++++++++++++++++++++++++++++++++++++++
+coordinates = (23,45) 
+###coordinates[0] = 22 # Error (ممنوع تغير القيمة)
+print(coordinates[1])
+
+list_of_tuples = [(2,3), (4,5), (7,8)]
+print(list_of_tuples)
+list_of_tuples[0][0] = 33
+print(list_of_tuples)
