@@ -71,13 +71,45 @@
 # print(friends[0:])
 #+++++++++++++++++++++++++++++++++++++++++++++++
 codezilla = ["Programming" , "python"  , "tutorial" , "css" , "HTML"]
-tutorila = ["extend" , "list1" , "codezilla"]
-codezilla.extend(tutorila)
-print(codezilla)
-codezilla.append("Javascript")
-print(codezilla)
-codezilla.insert(0,"Java")
-print(codezilla)
-codezilla.insert(2,"C#")
-print(codezilla)
+# tutorila = ["extend" , "list1" , "codezilla"]
+# codezilla.extend(tutorila)
+# print(codezilla)
+# codezilla.append("Javascript")
+# print(codezilla)
+# codezilla.insert(0,"Java")
+# print(codezilla)
+# codezilla.insert(2,"C#")
+# print(codezilla)
+# codezilla.remove("Programming")
+# print(codezilla)
+# codezilla.clear()
+# print(codezilla)
+# codezilla.pop() #remove the last index, and you can store this index inside the variable as:
+# print(codezilla)
+# what_was_popped = codezilla.pop()
+# print(what_was_popped)
+# print(codezilla.index("Programming"))
+# print(codezilla.count("Programming"))# Number of Programming inside the list ex:
+# codezilla_2 = ["css" , "css" , "css" , "html" , "Java"]
+# print(codezilla_2.count("css"))
+# codezilla.sort() #(ترتيب بالحروف)
+# print(codezilla)
 
+# Numbers = [30, 20, 67, 12, 32, 45, 67, 78]
+# Numbers.sort()
+# print(Numbers)
+
+# list_new = codezilla.copy()
+# print(list_new)
+
+
+# codezilla.append(1)
+# print(codezilla)
+# print(list_new)
+#+++++++++++++++++++++++++++++++++++++++++++++++
+codezilla = ["Programming" , "python"  , "tutorial" , "css" , "HTML"]
+list_new = codezilla
+print(list_new)
+codezilla.append(1)
+print(codezilla)
+print(list_new)
