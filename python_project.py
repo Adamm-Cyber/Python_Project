@@ -1,36 +1,25 @@
-# is_hungry = True
+# def max(num1 , num2 , num3):
+#     if num1 >= num2 and num1 >= num3:
+#         return num1
+#     elif num2 >= num1 and num2 >= num3:
+#         return num2
 
-# if is_hungry:
-#     print("Go eat")
+#     else:
+#         return num3
 
-# else:
-#     print("Do not eat")
+# result = max(20,23,190)
+# print(result)
 
+# #or 
 
-# is_hungry = True
-# wants_to_eat = True
+# print(max(30,59,79))# Fuck
+#++++++++++++++++++++++++++++++++++++++++++++++++++
+def match_strings(str1 , str2):
+    if str1 == str2:
+        print("Match")
 
-# if is_hungry or wants_to_eat:
-#     print("Go eat you are hungry or you just want to eat")
+    else:
+        print("does not match")    
 
-# else:
-#     print("Do not eat")
-
-
-
-is_hungry = False
-wants_to_eat = True
-
-if is_hungry and wants_to_eat:
-    print("Go eat you are hungry or you just want to eat")
-
-elif is_hungry and not wants_to_eat:
-    print("eat so you can survive")
-
-elif not is_hungry and wants_to_eat:
-    print("Dont eat you are not hungry")
-else:
-    print("Do not eat")
-
-
-
+match_strings("Buch" , "Beispiel" )
+match_strings("Buch" , "Buch" )
