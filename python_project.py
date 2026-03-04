@@ -1,36 +1,36 @@
-# def say_hi(name):
-#     print("Hello "+ name)
+# is_hungry = True
 
-# say_hi("Adam")
+# if is_hungry:
+#     print("Go eat")
 
-
-# def say_hi(name , age):
-#     print("Hello "+ name+  " your age is: " + str(age))
-
-# say_hi("Adam" , 23)
-#++++++++++++++++++++++++++++++++++++++++++
-
-def cube(num):
-     num*num*num
-
-print(cube(3)) # we dont have anything to return a value from the function, so must be use > return as:
-
-def cube(num):
-    return num*num*num
-
-print(cube(3)) 
-
-#or
-
-def cube(num):
-    return num*num*num
-# we able to store this function inside any variable as:
-result = cube(4)
-print(result)    
+# else:
+#     print("Do not eat")
 
 
-def add(num1 , num2):
-    return num1 + num2
+# is_hungry = True
+# wants_to_eat = True
 
-result = add(6,6)
-print(result)
+# if is_hungry or wants_to_eat:
+#     print("Go eat you are hungry or you just want to eat")
+
+# else:
+#     print("Do not eat")
+
+
+
+is_hungry = False
+wants_to_eat = True
+
+if is_hungry and wants_to_eat:
+    print("Go eat you are hungry or you just want to eat")
+
+elif is_hungry and not wants_to_eat:
+    print("eat so you can survive")
+
+elif not is_hungry and wants_to_eat:
+    print("Dont eat you are not hungry")
+else:
+    print("Do not eat")
+
+
+
