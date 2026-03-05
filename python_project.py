@@ -1,25 +1,38 @@
-# def max(num1 , num2 , num3):
-#     if num1 >= num2 and num1 >= num3:
-#         return num1
-#     elif num2 >= num1 and num2 >= num3:
-#         return num2
+# x = float(input("Enter your first number: "))
+# y = float(input("Enter your second number: "))
 
-#     else:
-#         return num3
+# def cl(x,y):
+#     return int(x) + int(y)
+# result = cl(x,y)
+# print(result)   
 
-# result = max(20,23,190)
+# def cl(x,y):
+#     return int(x) * int(y)
+# result = cl(x,y)
+# print(result) 
+
+# def cl(x,y):
+#     return int(x) - int(y)
+# result = cl(x,y)
+# print(result) 
+
+# def cl(x,y):
+#     return int(x) / int(y)
+# result = cl(x,y)
 # print(result)
 
-# #or 
+######OR####
+x = float(input("Enter your first number: "))
+operator = input("Enter the operator: ")
+y = float(input("Enter your second number: "))
 
-# print(max(30,59,79))# Fuck
-#++++++++++++++++++++++++++++++++++++++++++++++++++
-def match_strings(str1 , str2):
-    if str1 == str2:
-        print("Match")
-
-    else:
-        print("does not match")    
-
-match_strings("Buch" , "Beispiel" )
-match_strings("Buch" , "Buch" )
+if operator == "+":
+   print(x+y) 
+elif operator == "-":
+    print(x-y)  
+elif operator == "*":
+    print(x*y)        
+elif operator == "/":
+    print(x/y)
+else: 
+    print("Error, please try again!")
